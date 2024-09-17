@@ -1897,3 +1897,24 @@
     width: 340px;
   }
 }
+
+
+
+/* Targeting iPads specifically */
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait), 
+       (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .u-section-1 {
+    background-size: contain; /* Ensures the entire image fits within the section */
+    background-position: center center;
+  }
+}
+
+/* Safari-specific CSS hack */
+@media not all and (min-resolution: 0.001dpcm) { 
+  @supports (-webkit-appearance: none) {
+    .u-section-1 {
+      background-size: contain; /* Safari fix */
+      background-position: center center; /* Center the image */
+    }
+  }
+}

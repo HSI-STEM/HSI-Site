@@ -44,11 +44,7 @@
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
   }
-
-  .u-section-1 {
-    background-size: contain; /* Fits the entire image within the container */
-    background-position: center center; /* Ensures it remains centered */
-  }
+ 
 
 }
 

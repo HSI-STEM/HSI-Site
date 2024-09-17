@@ -1900,3 +1900,16 @@
   }
 }
 
+@supports (-webkit-touch-callout: none) {
+  .u-section-1 {
+    position: fixed; /* Keeps the section fixed to prevent scrolling */
+    background-attachment: scroll; /* This prevents Safari from applying the broken fixed behavior */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh; /* Ensures it fits the viewport height */
+    width: 100vw; /* Ensures it covers the full width */
+    overflow: hidden; /* Prevents any scrolling */
+  }
+}

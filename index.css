@@ -1,5 +1,7 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/UTSALabPhoto.jpg');
+  height: 100vh; /* Makes the section take up the full viewport height */
+  width: 100vw; /* Ensure it spans the full viewport width */
 }
 
 .u-section-1 .u-sheet-1 {
@@ -1898,11 +1900,3 @@
   }
 }
 
-/* Safari-specific zoom effect and scrolling behavior */
-@media not all and (min-resolution: 0.001dpcm) { 
-  @supports (-webkit-appearance: none) {
-    .u-section-1 {
-      background-attachment: fixed; /* Safari does not fully support fixed backgrounds */
-    }
-  }
-}

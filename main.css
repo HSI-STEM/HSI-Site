@@ -26291,7 +26291,7 @@ li.active > a.u-button-style.u-button-style.u-active-color-1-base,
 li.active > a.u-button-style.u-button-style.u-active-color-1-base[class*="u-border-"],
 input.u-field-input.u-field-input.u-active-color-1-base:checked {
   color: #111111 !important;
-  background-color: #ffc000 !important;
+  background-color: #0c2340 !important;
 }
 a.u-link.u-hover-color-1-base:hover {
   color: #ffc000 !important;

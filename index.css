@@ -1897,15 +1897,3 @@
     width: 340px;
   }
 }
-
-
-
-
-/* Safari-specific CSS hack */
-@media not all and (min-resolution: 0.001dpcm) { 
-  @supports (-webkit-appearance: none) {
-    .u-section-1 {
-      background-size: contain; /* Safari fix */
-    }
-  }
-}

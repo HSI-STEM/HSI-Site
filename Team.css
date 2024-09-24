@@ -26,6 +26,10 @@
   margin: 20px auto 60px;
 }
 
+a:hover, .u-text-4:hover {
+  color: #ffffff; /* Hover color for links and menu buttons */
+}
+
 @media (max-width: 1199px) {
    .u-section-1 {
     background-position: 50% 50%;
@@ -226,7 +230,7 @@
 
   .u-section-2 .u-text-2 {
     margin-top: 20px;
-    margin-right: 295px;
+    margin-right: -295px; /*changed this to negative*/
     margin-left: 0;
   }
 

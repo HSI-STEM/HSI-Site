@@ -37,7 +37,27 @@
       text-align: center; /* Center text on smaller screens */
       margin-top: 15px;
     }
+    .profile-picture {
+      width: 300px; /* Make the picture smaller on tablets */
+    }
+}
+@media (max-width: 600px) {
+  .profile-picture {
+    width: 200px; /* Further reduce size for small phone screens */
   }
+
+  .bio-details {
+    text-align: left; /* Ensure text is left-aligned on phones */
+  }
+  
+  .bio-container {
+    align-items: center; /* Center image on small screens */
+  }
+  
+  .info-section {
+    margin: auto;
+  }
+}
 
   /* Hover effect for links and menu buttons */
 a:hover, .menu-button:hover {

@@ -1,0 +1,50 @@
+/* Container for the biography section */
+.bio-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px; /* Adds space between the header and the image */
+  }
+  
+  /* Profile picture styling */
+  .profile-picture {
+    width: 400px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-right: 20px; /* Add space between image and text */
+  }
+  
+  /* Right-aligned text for Name, Education, and Contact */
+  .bio-details {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* Ensure proper spacing for the entire bio section */
+  .info-section {
+    margin-top: 20px;
+  }
+  
+  /* Responsive styling - Stack image and text on smaller screens */
+  @media (max-width: 991px) {
+    .bio-container {
+      flex-direction: column; /* Stack image and text */
+      align-items: center;
+    }
+    
+    .bio-details {
+      text-align: center; /* Center text on smaller screens */
+      margin-top: 15px;
+    }
+  }
+
+  /* Hover effect for links and menu buttons */
+a:hover, .menu-button:hover {
+    color: #F15A22; /* Hover color for links and menu buttons */
+}
+
+/* Research information text color */
+.bio-container, .info-section, .bio-details {
+    color: #0C2340; /* Set research text color */
+}

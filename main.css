@@ -42143,24 +42143,24 @@ a.u-button-style.u-button-style.active > .u-text-active-grey-50[class*="u-border
 a.u-link.u-text-hover-grey-50:hover {
   color: #808080 !important;
 }
-.u-text-grey-60,
-.u-input.u-text-grey-60,
-.u-input.u-text-grey-60[class*="u-border-"],
-li.active > a.u-button-style.u-text-grey-60,
-li.active > a.u-button-style.u-text-grey-60[class*="u-border-"],
-a.u-button-style.u-text-grey-60,
-a.u-button-style.u-text-grey-60[class*="u-border-"] {
-  color: #666666 !important;
+.u-text-blue-60,
+.u-input.u-text-blue-60,
+.u-input.u-text-blue-60[class*="u-border-"],
+li.active > a.u-button-style.u-text-blue-60,
+li.active > a.u-button-style.u-text-blue-60[class*="u-border-"],
+a.u-button-style.u-text-blue-60,
+a.u-button-style.u-text-blue-60[class*="u-border-"] {
+  color: #0C2340  !important;
 }
-a.u-button-style.u-text-grey-60:hover,
-a.u-button-style.u-text-grey-60[class*="u-border-"]:hover,
-a.u-button-style.u-text-grey-60:focus,
-a.u-button-style.u-text-grey-60[class*="u-border-"]:focus,
-a.u-button-style.u-button-style.u-text-grey-60:active,
-a.u-button-style.u-button-style.u-text-grey-60[class*="u-border-"]:active,
-a.u-button-style.u-button-style.u-text-grey-60.active,
-a.u-button-style.u-button-style.u-text-grey-60[class*="u-border-"].active {
-  color: #5c5c5c !important;
+a.u-button-style.u-text-blue-60:hover,
+a.u-button-style.u-text-blue-60[class*="u-border-"]:hover,
+a.u-button-style.u-text-blue-60:focus,
+a.u-button-style.u-text-blue-60[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-text-blue-60:active,
+a.u-button-style.u-button-style.u-text-blue-60[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-text-blue-60.active,
+a.u-button-style.u-button-style.u-text-blue-60[class*="u-border-"].active {
+  color: #0C2340 !important;
 }
 /* hover */
 a.u-button-style:hover > .u-text-hover-grey-60,
@@ -42187,22 +42187,22 @@ a.u-button-style.u-button-style.active > .u-text-active-grey-60[class*="u-border
 .u-text-hover-grey-60.u-gallery-nav:hover,
 .u-popupmenu-items.u-text-hover-grey-60 .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-grey-60 .u-nav-link.active {
-  color: #666666 !important;
+  color: #0C2340 !important;
 }
-.u-text-grey-60 .u-svg-link,
+.u-text-blue-60 .u-svg-link,
 .u-text-hover-grey-60:hover .u-svg-link,
 .u-text-hover-grey-60:focus .u-svg-link,
 .u-text-active-grey-60:active .u-svg-link.u-svg-link,
 .u-button-style:hover > .u-text-hover-grey-60 .u-svg-link,
 .u-button-style.u-button-style:active > .u-text-active-grey-60 .u-svg-link,
 .u-button-style.u-button-style.active > .u-text-active-grey-60 .u-svg-link {
-  fill: #666666;
+  fill: #0C2340;
 }
-.u-link.u-text-grey-60:hover {
-  color: #5c5c5c !important;
+.u-link.u-text-blue-60:hover {
+  color: #0C2340 !important;
 }
 a.u-link.u-text-hover-grey-60:hover {
-  color: #666666 !important;
+  color: #0C2340 !important;
 }
 .u-text-grey-70,
 .u-input.u-text-grey-70,

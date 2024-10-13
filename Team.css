@@ -318,6 +318,13 @@ a:hover, .u-text-4:hover {
   background-position: 50% 50%;
   margin: 0 auto 0 0;
 }
+.u-section-2 .u-image-7 {
+  width: 186px;
+  height: 186px;
+  background-image: url("images/BooksStockImage.png");
+  background-position: 50% 50%;
+  margin: 0 auto 0 0;
+}
 
 
 
@@ -497,6 +504,9 @@ a:hover, .u-text-4:hover {
     margin-left: auto;
   }
   .u-section-2 .u-image-6 {
+    margin-left: auto;
+  }
+  .u-section-2 .u-image-7 {
     margin-left: auto;
   }
 

@@ -574,7 +574,7 @@
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin-top: 0;
+  margin-top: -150px;
   margin-bottom: 0;
 }
 
@@ -594,7 +594,25 @@
 .u-section-3 .u-text-1 {
   font-size: 3rem;
   margin: 57px 0 0;
+  margin-bottom: -130px;
+
 }
+
+.NSFLogo {
+  display: inline-block; /* Keep the logo inline with the text */
+  vertical-align: middle; /* Aligns the logo with the text baseline */
+  margin: 0; /* Remove any extra margins */
+  padding: 0; /* Remove padding */
+}
+
+.NSFLogo img {
+  width: 400px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: -130px; /* Optional: Add space between 'The' and the logo */
+  margin-right: -130px; /* Optional: Add space between the logo and 'Grant' */
+  padding-top: 0; /* Ensure no padding is adding extra space */
+}
+
 
 .u-section-3 .u-text-2 {
   font-size: 1.125rem;
@@ -1897,4 +1915,5 @@
     width: 340px;
   }
 }
+
 

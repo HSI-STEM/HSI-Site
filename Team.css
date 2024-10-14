@@ -196,6 +196,10 @@ a:hover, .u-text-4:hover {
 
 .u-section-2 .u-text-3 {
   margin: 17px 0 0 223px;
+  display: block; /* Ensure it takes up its own line */
+  word-wrap: break-word; /* Forces long words to wrap to the next line if needed */
+  white-space: normal; /* Allows text to wrap to the next line */
+  max-width: 100%; /* Ensures the text container doesn't exceed the width of its parent */
 }
 
 .u-section-2 .u-text-4 {
@@ -303,6 +307,7 @@ a:hover, .u-text-4:hover {
   font-size: 1rem;
   margin: 21px 0 0 223px;
 }
+
 .u-section-2 .u-image-5 {
   width: 186px;
   height: 186px;

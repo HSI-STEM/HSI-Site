@@ -23,6 +23,8 @@
 
 }
 
+
+
 /* Hover effect */
 
 
@@ -36,3 +38,12 @@
   transform: scale(0.95); /* Shrink on click */
 }
 
+
+@media (max-width: 575px) {
+
+  .u-button {
+    margin-bottom: 100px;
+    float: right; /* Aligns button to the right */  
+  }
+
+}

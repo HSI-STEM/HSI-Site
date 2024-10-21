@@ -407,6 +407,7 @@
   font-style: italic;
   font-size: 1rem;
   margin: 20px 0 0;
+
 }
 
 .u-section-4 .u-list-item-3 {
@@ -616,5 +617,9 @@
   .u-section-4 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .mobile-fix {
+    margin-bottom: -700px !important;
   }
 }

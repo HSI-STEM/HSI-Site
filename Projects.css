@@ -445,3 +445,28 @@
     margin-left: 60px;
   }
 }
+
+.u-button {
+  display: inline-block; /* Allows for padding and margin */
+  padding: 8px 8px; /* Adds space inside the button */
+  background-color: #F15A22; /* Button background color */
+  color: white; /* Font color */
+  text-decoration: none; /* Removes underline from the link */
+  border-radius: 10px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+/* Hover effect */
+
+
+.u-button:hover {
+  color: #0C2340;/* Changes font color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.u-button:active {
+  transform: scale(0.95); /* Shrink on click */
+}
+

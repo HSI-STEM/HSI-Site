@@ -3,9 +3,8 @@
 }
 .u-team-icons-bio {
   display: flex;
-  justify-content: flex-end; /* Aligns the buttons to the right */
-  margin-right: 20px;
-  margin-top: 15px;
+  justify-content: flex-start; /* Aligns the buttons to the right */
+  margin-top: 50px;
   gap: 0.21px;
 }
 
@@ -113,6 +112,13 @@ a:hover, .u-text-4:hover {
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
   }
+  .u-team-icons-bio {
+    display: flex;
+    justify-content: center; /* Aligns the buttons to the center */
+    margin-top: 40px;
+    gap: 0.21px;
+  }
+
 } .u-section-2 {
   background-image: none;
 }
@@ -191,7 +197,7 @@ a:hover, .u-text-4:hover {
 
 .u-section-2 .u-text-2 {
   font-weight: 700;
-  margin: -186px 0 0 223px;
+  margin: -300px 0 0 223px;
 }
 
 .u-section-2 .u-text-3 {
@@ -229,7 +235,7 @@ a:hover, .u-text-4:hover {
 
 .u-section-2 .u-text-5 {
   font-weight: 700;
-  margin: -186px 0 0 223px;
+  margin: -300px 0 0 223px;
 }
 
 .u-section-2 .u-text-6 {
@@ -263,7 +269,7 @@ a:hover, .u-text-4:hover {
 
 .u-section-2 .u-text-8 {
   font-weight: 700;
-  margin: -186px 0 0 223px;
+  margin: -300px 0 0 223px;
 }
 
 .u-section-2 .u-text-9 {
@@ -296,8 +302,9 @@ a:hover, .u-text-4:hover {
 }
 .u-section-2 .u-text-11 {
   font-weight: 700;
-  margin: -186px 0 0 223px;
+  margin: -300px 0 0 223px; /*-186*/
 }
+
 
 .u-section-2 .u-text-12 {
   margin: 17px 0 0 223px;
@@ -330,8 +337,10 @@ a:hover, .u-text-4:hover {
   background-position: 50% 50%;
   margin: 0 auto 0 0;
 }
-
-
+.u-section-2 .u-text-short {
+  font-weight: 700;
+  margin: -200px 0 0 223px; /*-186*/
+}
 
 @media (max-width: 1199px) {
   .u-section-2 .u-repeater-1 {
@@ -394,6 +403,7 @@ a:hover, .u-text-4:hover {
     margin-right: 295px;
     margin-left: 0;
   }
+
 
   .u-section-2 .u-text-12 {
     width: auto;
@@ -644,6 +654,10 @@ a:hover, .u-text-4:hover {
   .u-section-4 .u-text-5 {
     margin-left: 25px;
     margin-right: 25px;
+  }
+  .u-section-2 .u-text-short {
+    font-weight: 700;
+    margin: 100px 0 0 0px; /*-186*/
   }
 }
 

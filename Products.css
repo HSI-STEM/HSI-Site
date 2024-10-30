@@ -313,7 +313,14 @@ a:hover, .u-text-4:hover {
     grid-template-columns: 100%;
     grid-auto-columns: calc(100% - 0px);
   }
-
+  .u-button-icon-cv {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if button has fixed height */
+    margin: 0 auto; /* Center the button itself */
+    width: fit-content; /* Make width fit the content if necessary */
+  }
+  
   .u-section-2 .u-text-2 {
     margin-right: auto;
   }
@@ -368,6 +375,14 @@ a:hover, .u-text-4:hover {
     grid-auto-columns: 100%;
   }
 
+  .u-button-icon-cv {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if button has fixed height */
+    margin: 0 auto; /* Center the button itself */
+    width: fit-content; /* Make width fit the content if necessary */
+  }
+  
   .u-section-2 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -390,31 +405,16 @@ a:hover, .u-text-4:hover {
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-image-1 {
-    margin-left: auto;
-  }
 
-  .u-section-2 .u-image-2 {
-    margin-left: auto;
+  .u-button-icon-cv {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if button has fixed height */
+    margin: 0 auto; /* Center the button itself */
+    width: fit-content; /* Make width fit the content if necessary */
   }
+  
 
-  .u-section-2 .u-image-3 {
-    margin-left: auto;
-  }
-
-  .u-section-2 .u-image-4 {
-    margin-left: auto;
-  }
-
-  .u-section-2 .u-image-5 {
-    margin-left: auto;
-  }
-  .u-section-2 .u-image-6 {
-    margin-left: auto;
-  }
-  .u-section-2 .u-image-7 {
-    margin-left: auto;
-  }
 
 }.u-section-4 .u-sheet-1 {
   min-height: 695px;
@@ -529,7 +529,14 @@ a:hover, .u-text-4:hover {
   .u-section-4 .u-sheet-1 {
     min-height: 678px;
   }
-
+  .u-button-icon-cv {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if button has fixed height */
+    margin: 0 auto; /* Center the button itself */
+    width: fit-content; /* Make width fit the content if necessary */
+  }
+  
   .u-section-4 .u-layout-wrap-1 {
     width: 940px;
   }

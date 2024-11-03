@@ -262,7 +262,7 @@ a:hover, .u-text-4:hover {
 .u-section-2 .u-image-3 {
   width: 186px;
   height: 186px;
-  background-image: url("images/MonikaCantu.jpg");
+  background-image: url("images/Monika-Cantu.png");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
 }
@@ -334,6 +334,13 @@ a:hover, .u-text-4:hover {
   width: 186px;
   height: 186px;
   background-image: url("images/MakalaRoberson.JPG");
+  background-position: 50% 50%;
+  margin: 0 auto 0 0;
+}
+.u-section-2 .u-image-8 {
+  width: 186px;
+  height: 186px;
+  background-image: url("images/AlondraLerma.png");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
 }
@@ -522,6 +529,9 @@ a:hover, .u-text-4:hover {
     margin-left: auto;
   }
   .u-section-2 .u-image-7 {
+    margin-left: auto;
+  }
+  .u-section-2 .u-image-8 {
     margin-left: auto;
   }
 
@@ -756,7 +766,7 @@ a:hover, .u-text-4:hover {
 .u-section-3 .u-image-1 {
   width: 186px;
   height: 186px;
-  background-image: url("images/HSILogo.png");
+  background-image: url("images/Heather-Shipley.png");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
   margin-bottom: 40px;
@@ -791,7 +801,7 @@ a:hover, .u-text-4:hover {
 .u-section-3 .u-image-2 {
   width: 186px;
   height: 186px;
-  background-image: url("images/HSILogo.png");
+  background-image: url("images/VanessaSansone.jpeg");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
   margin-bottom: 40px;
@@ -827,7 +837,7 @@ a:hover, .u-text-4:hover {
 .u-section-3 .u-image-3 {
   width: 186px;
   height: 186px;
-  background-image: url("images/HSILogo.png");
+  background-image: url("images/Mark-Appleford.jpg");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
   margin-bottom: 40px;
@@ -863,7 +873,7 @@ a:hover, .u-text-4:hover {
 .u-section-3 .u-image-4 {
   width: 186px;
   height: 186px;
-  background-image: url("images/HSILogo.png");
+  background-image: url("images/Arturo-montoya.jpg");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
   margin-bottom: 40px;
@@ -899,7 +909,7 @@ a:hover, .u-text-4:hover {
 .u-section-3 .u-image-5 {
   width: 186px;
   height: 186px;
-  background-image: url("images/HSILogo.png");
+  background-image: url("images/Harry-Millwater.jpg");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
   margin-bottom: 40px;
@@ -937,7 +947,7 @@ a:hover, .u-text-4:hover {
 .u-section-3 .u-image-6 {
   width: 186px;
   height: 186px;
-  background-image: url("images/HSILogo.png");
+  background-image: url("images/Francisco-Herbert.png");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
   margin-bottom: 40px;
